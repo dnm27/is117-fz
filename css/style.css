@@ -37,3 +37,19 @@ menu li {
 #intro {
 	color: green;
 }
+
+/* f layout csss */
+.f_wrapper {
+    display:flex;
+}
+.top_bar {
+    align-items: center;
+}
+.side_bar {
+    width: 20%;
+    padding-right: 5%;
+}
+.f_bars {
+    flex: 1 0 auto;
+    width: 70%;
+}
